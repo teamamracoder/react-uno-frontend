@@ -23,7 +23,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Data from Flask API</h1>
+        <h1>Data from Flask API, view console</h1>
         {data ? <p>{data.message}</p> : <p>Loading...</p>}
       </header>
     </div>
